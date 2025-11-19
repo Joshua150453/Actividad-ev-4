@@ -2,6 +2,8 @@
 # Alumno: Joshua David Ortiz Rosas
 Este proyecto implementa una pantalla de Login con validaciones profesionales utilizando Form, GlobalKey<FormState>, validator, onSaved, navegación con Navigator.push y envío de datos entre pantallas. Después del Login, el usuario accede a una pantalla CRUD gestionada con Provider, que además recibe y muestra el correo ingresado durante el login como parte de la integración entre ambas pantallas. Las actividades extra están completamente implementadas: validación avanzada de contraseña, elementos adicionales de UI ("Crear cuenta" y "¿Olvidaste tu contraseña?"), y el AppBar personalizado con el email del usuario.
 
+[Archico_principal](https://github.com/Joshua150453/Actividad-ev-4/tree/main/lib)
+
 ## 📂 1. main.dart
 El archivo main.dart es el punto de entrada de la aplicación. Aquí se inicializa el UserViewModel mediante ChangeNotifierProvider, permitiendo manejar el estado global del CRUD. También se configura el widget principal MyApp, donde se define el tema, el título de la aplicación y la pantalla inicial, que en este caso es LoginScreen. Este archivo establece la base de todo el flujo, conectando la lógica del Provider con la interfaz y habilitando la navegación posterior.
 
